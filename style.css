@@ -1,0 +1,108 @@
+body {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+    font-family: Georgia, serif;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  .cocktail-container {
+    position: relative;
+    border: 2px solid #666;
+    padding: 20px;
+    width: 1000px;
+    height: 500px;
+    background-color: #2c2c2c;
+    border-radius: 18px;
+    border-radius: 18px;
+  }
+  
+  .image {
+    width: 325px;
+    height: 250px;
+    background-color: #201e1f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #e0e0e0;
+    border: 2px solid #666;
+    border-radius: 10px;
+    position: absolute;
+    left: 60px;
+    top: 50px;
+  }
+  
+  #cocktail-name {
+    margin-top: 10px;
+    text-align: center;
+    background-color: #201e1f;
+    border: 2px solid #666;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #e0e0e0;
+    position: absolute;
+    left: 100px;
+    border-radius: 10px;
+    top: 320px;
+    width: 250px;
+    text-align: center;
+  }
+  .head {
+    font-size: 1.8rem;
+    position: absolute;
+    top: 20px;
+    left: 410px;
+  }
+  
+  .ingredients,
+  .receipt {
+    width: 475px;
+    height: 175px;
+    border: 2px #666;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    color: #e0e0e0;
+    background-color: #201e1f;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    position: absolute;
+    overflow: auto;
+    word-wrap: break-word;
+  }
+  .receipt {
+    right: 20px;
+    top: 50px;
+  }
+  
+  .ingredients {
+    right: 20px;
+    bottom: 70px;
+  }
+  button {
+    position: absolute;
+    bottom: 120px;
+    left: 225px;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color: #960018;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3 ease;
+  }
+  button:hover {
+    background-color: #740114;
+  }
+  .age-icon {
+    position: absolute;
+    bottom: 20px;
+  }
+  
